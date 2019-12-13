@@ -100,7 +100,7 @@ video {
 /* ====================================== */
 /* ====================================== */
 .centreblock {
-	height: 400px;
+	min-height: 400px;
 	display: grid;
 	place-items: center;
 	background: rgb(2,0,36);
@@ -417,19 +417,13 @@ nav a {
 
 }
 .card2 {
-	/* background-image: url(img/drawing2.png); */
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	
-	/* background-size: 400px; */
 
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	/* grid-gap: 40px;
-	grid-auto-rows: minmax(100px, auto); */
+	
 	text-align: center;
-	/* padding: 0 2%; */
+	
 	font-size: .7em;
 
 }
@@ -515,11 +509,28 @@ nav a {
 .services-heading {
 	/* padding: 150px 10px; */
 
-	height: 120px;
+	height: 100%;
+	display: grid;
+	align-content: flex-end;
+	/* margin-bottom: 100px; */
+	font-size: .6em;
+	/* background-color: #f14400; */
+	padding-bottom: 100px;
+	
+}
+
+.services-heading-3 {
+	/* padding: 150px 10px; */
+	
+
+	height: 100%;
 	display: grid;
 	place-items: center;
+	
 	/* margin-bottom: 100px; */
-	font-size: .7em;
+	font-size: .6em;
+	/* background-color: #f14400; */
+	padding: 100px 15px 20px;
 	
 }
 
@@ -557,7 +568,7 @@ nav a {
 /* ===== review boxes ===== */
 .review-box-style {
 	color: #424242;
-	padding: 50px 20px;
+	padding: 200px 20px;
 	
 	/* text-align: center; */
 	
@@ -569,6 +580,11 @@ nav a {
 	/* background-color: hsl(0, 0%, 94%, 0.5); */
 	/* margin: 5%; */
 	
+}
+
+.review-box-style h2 {
+	padding: 20px 0;
+	font-size: 1.7em;
 }
 
 .review-box-style h1 {
@@ -744,6 +760,7 @@ padding-top: 20px;
 
 
 /* ================ */
+
 /* ================ */
 
 .stylist-credit {
@@ -769,6 +786,9 @@ padding-top: 20px;
 	vertical-align: middle;
 }
 
+.footer-link {
+	font-size: .6em;
+}
 
 .link-png {
 	height: 15px;
