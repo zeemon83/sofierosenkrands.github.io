@@ -48,7 +48,8 @@ a {
 	
 } */
 h1, h2, h3, a, address, .tit-color  {
-	font-family:'Montserrat', helvetica sans-serif ;
+	/* font-family:'Montserrat', helvetica sans-serif ; */
+	font-family:'helvetica neue', helvetica sans-serif ;
 	font-weight: 300;
 	/* font-family:'Barlow', helvetica sans-serif ; */
 	color: #424242;
@@ -136,10 +137,11 @@ nav {
 
 nav a {
 	/* background-color: white; */
+	/* height: 25px; */
 
 }
 .nav-logo {
-	height: 40px;
+	height: 60px;
 	/* display: flex;
 	justify-content: flex-end; */
   /* margin-right: 70px; */
@@ -320,7 +322,7 @@ nav a {
 
 	.container4 {
 		
-		height: 83vh;
+		height: 88.5vh;
 
 		display: grid;
 		align-items: center;
