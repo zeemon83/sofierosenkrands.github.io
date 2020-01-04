@@ -1009,7 +1009,7 @@ padding-top: 20px;
 
 	.services-card {
 	
-		grid-template-columns: repeat(1, 1fr);
+		/* grid-template-columns: repeat(1, 1fr); */
 		/* grid-column-gap: 35px;
 		padding-left: 20px;
 		padding-right: 10px; */
