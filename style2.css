@@ -496,7 +496,7 @@ nav a {
 .services-card-background {
 	/* background-color: rgb(247, 247, 247); */
 }
-.services-card {
+.services-card, .services-card-main {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 7px;
@@ -939,7 +939,7 @@ padding-top: 20px;
 	.card1, .card2 {
 		min-height: 400px;
 	}
-	.services-card {
+	.services-card, .services-card-main {
 		grid-template-columns: repeat(2, 1fr);
 
 	}
@@ -1009,7 +1009,7 @@ padding-top: 20px;
 
 	.services-card {
 	
-		/* grid-template-columns: repeat(1, 1fr); */
+		grid-template-columns: repeat(1, 1fr);
 		/* grid-column-gap: 35px;
 		padding-left: 20px;
 		padding-right: 10px; */
